@@ -1,0 +1,21 @@
+.footer {
+    background-color: #2d2d2d;
+}
+.footer__text {
+    color: #fff;
+    padding: 5px;
+}
+.footer__row {
+    justify-content: space-between;
+}
+.footer__row .col__text {
+    max-width: 75%;
+}
+@media only screen and ( max-width: 959px ){
+    .footer__row .col__text {
+        max-width: 100%;
+    }
+    .about__img img {
+        display: none;
+    }
+}
